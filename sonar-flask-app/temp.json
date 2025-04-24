@@ -1,0 +1,59 @@
+[
+  {
+    "fileName": "config.go",
+    "issues": [
+      {
+        "message": "Either remove or fill this block of code.",
+        "tags": "suspicious",
+        "startLine": 28,
+        "endLine": 30,
+        "component": "config.go"
+      }
+    ]
+  },
+  {
+    "fileName": "main.go",
+    "issues": [
+      {
+        "message": "Update this function so that its implementation is not identical to \"duplicateFunction1\" on line 32.",
+        "tags": "confusing,duplicate,suspicious",
+        "startLine": 42,
+        "endLine": 42,
+        "component": "main.go"
+      },
+      {
+        "message": "Rename this parameter to match the regular expression \"^(_|[a-zA-Z0-9]+)$\".",
+        "tags": "convention",
+        "startLine": 53,
+        "endLine": 53,
+        "component": "main.go"
+      },
+      {
+        "message": "This function has 10 parameters, which is greater than the 7 authorized.",
+        "tags": "brain-overload",
+        "startLine": 53,
+        "endLine": 53,
+        "component": "main.go"
+      },
+      {
+        "message": "Refactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.",
+        "tags": "brain-overload",
+        "startLine": 72,
+        "endLine": 72,
+        "component": "main.go"
+      }
+    ]
+  },
+  {
+    "fileName": "utils.go",
+    "issues": [
+      {
+        "message": "Update this function so that its implementation is not identical to \"validateInput\" on line 25.",
+        "tags": "confusing,duplicate,suspicious",
+        "startLine": 39,
+        "endLine": 39,
+        "component": "utils.go"
+      }
+    ]
+  }
+]
